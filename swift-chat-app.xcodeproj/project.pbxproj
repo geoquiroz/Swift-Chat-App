@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45DC44B4273D6D00001049C7 /* swift_chat_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC44B3273D6D00001049C7 /* swift_chat_appApp.swift */; };
-		45DC44B6273D6D00001049C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC44B5273D6D00001049C7 /* ContentView.swift */; };
+		45DC44B6273D6D00001049C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC44B5273D6D00001049C7 /* LoginView.swift */; };
 		45DC44B8273D6D02001049C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DC44B7273D6D02001049C7 /* Assets.xcassets */; };
 		45DC44BB273D6D02001049C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DC44BA273D6D02001049C7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		45DC44B0273D6D00001049C7 /* swift-chat-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-chat-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DC44B3273D6D00001049C7 /* swift_chat_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_chat_appApp.swift; sourceTree = "<group>"; };
-		45DC44B5273D6D00001049C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45DC44B5273D6D00001049C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		45DC44B7273D6D02001049C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45DC44BA273D6D02001049C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				45DC44B3273D6D00001049C7 /* swift_chat_appApp.swift */,
-				45DC44B5273D6D00001049C7 /* ContentView.swift */,
+				45DC44B5273D6D00001049C7 /* LoginView.swift */,
 				45DC44B7273D6D02001049C7 /* Assets.xcassets */,
 				45DC44B9273D6D02001049C7 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DC44B6273D6D00001049C7 /* ContentView.swift in Sources */,
+				45DC44B6273D6D00001049C7 /* LoginView.swift in Sources */,
 				45DC44B4273D6D00001049C7 /* swift_chat_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
