@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3F711AC9B649BCD44081F2B4 /* Pods_swift_chat_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077E861605105EB30E7D2A51 /* Pods_swift_chat_app.framework */; };
-		451A60EA27C54ED900C07C6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451A60E927C54ED900C07C6B /* GoogleService-Info.plist */; };
 		45DC44B4273D6D00001049C7 /* swift_chat_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC44B3273D6D00001049C7 /* swift_chat_appApp.swift */; };
 		45DC44B6273D6D00001049C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC44B5273D6D00001049C7 /* LoginView.swift */; };
 		45DC44B8273D6D02001049C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DC44B7273D6D02001049C7 /* Assets.xcassets */; };
 		45DC44BB273D6D02001049C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DC44BA273D6D02001049C7 /* Preview Assets.xcassets */; };
+		CED9AA9B280592CF00816DC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED9AA9A280592CF00816DC7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		077E861605105EB30E7D2A51 /* Pods_swift_chat_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_chat_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		451A60E927C54ED900C07C6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45DC44B0273D6D00001049C7 /* swift-chat-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-chat-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DC44B3273D6D00001049C7 /* swift_chat_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_chat_appApp.swift; sourceTree = "<group>"; };
 		45DC44B5273D6D00001049C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -25,6 +24,7 @@
 		45DC44BA273D6D02001049C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A0A397DB836E62B953BED1E /* Pods-swift-chat-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-chat-app.debug.xcconfig"; path = "Target Support Files/Pods-swift-chat-app/Pods-swift-chat-app.debug.xcconfig"; sourceTree = "<group>"; };
 		CA8910B71C6EEE136A7F2887 /* Pods-swift-chat-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-chat-app.release.xcconfig"; path = "Target Support Files/Pods-swift-chat-app/Pods-swift-chat-app.release.xcconfig"; sourceTree = "<group>"; };
+		CED9AA9A280592CF00816DC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 		45DC44B2273D6D00001049C7 /* swift-chat-app */ = {
 			isa = PBXGroup;
 			children = (
-				451A60E927C54ED900C07C6B /* GoogleService-Info.plist */,
+				CED9AA9A280592CF00816DC7 /* GoogleService-Info.plist */,
 				45DC44B3273D6D00001049C7 /* swift_chat_appApp.swift */,
 				45DC44B5273D6D00001049C7 /* LoginView.swift */,
 				45DC44B7273D6D02001049C7 /* Assets.xcassets */,
@@ -156,7 +156,7 @@
 			files = (
 				45DC44BB273D6D02001049C7 /* Preview Assets.xcassets in Resources */,
 				45DC44B8273D6D02001049C7 /* Assets.xcassets in Resources */,
-				451A60EA27C54ED900C07C6B /* GoogleService-Info.plist in Resources */,
+				CED9AA9B280592CF00816DC7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
